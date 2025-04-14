@@ -1,0 +1,23 @@
+{
+  "include": [
+    "**/*",
+    "**/.server/**/*",
+    "**/.client/**/*",
+    ".react-router/types/**/*",
+    "./src/**/**.*",
+    "src/*.ts",
+    "src/setupTests.tsx"
+  ],
+  "compilerOptions": {
+    "types": ["@testing-library/jest-dom", "node", "jest"],
+    "module": "commonjs",
+    "target": "es6",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "jsx": "react-jsx",
+    "lib": ["es2019", "dom"]
+  },
+  "exclude": ["node_modules"]
+}

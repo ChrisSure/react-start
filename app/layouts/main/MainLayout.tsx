@@ -1,6 +1,7 @@
 import { Outlet } from "react-router";
-import { Header } from "~/layouts/main/components/header/header";
-import { Footer } from "~/layouts/main/components/footer/footer";
+import React from "react";
+import {Header} from "./components/header/Header";
+import {Footer} from "./components/footer/Footer";
 
 export default function MainLayout() {
   return (

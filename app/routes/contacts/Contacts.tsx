@@ -1,4 +1,4 @@
-import { Welcome } from "~/routes/contacts/components/welcome/welcome";
+import { Welcome } from "~/routes/contacts/components/welcome/Welcome";
 import type { Route } from "../../../.react-router/types/app/+types/root";
 
 export function meta({}: Route.MetaArgs) {
