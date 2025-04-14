@@ -12,7 +12,7 @@
     "lint": "npx eslint app",
     "prettier-write": "npx prettier . --write",
     "prettier-check": "npx prettier . --check",
-    "prepare": "npm run test-coverage && npm run lint && npm run prettier-check"
+    "prepare": "npm run test-coverage && npm run lint && npx prettier . --write"
   },
   "husky": {
     "hooks": {
