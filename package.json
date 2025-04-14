@@ -8,7 +8,9 @@
     "start": "react-router-serve ./build/server/index.js",
     "typecheck": "react-router typegen && tsc",
     "lint": "npx eslint app",
-    "pre-build": "npm run lint"
+    "prettier-write": "npx prettier . --write",
+    "prettier-check": "npx prettier . --check",
+    "pre-build": "npm run lint && npm run prettier-check"
   },
   "dependencies": {
     "@react-router/node": "^7.5.0",
@@ -26,8 +28,11 @@
     "@types/react": "^19.0.1",
     "@types/react-dom": "^19.0.1",
     "eslint": "^9.24.0",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-prettier": "^5.2.6",
     "eslint-plugin-react": "^7.37.5",
     "globals": "^16.0.0",
+    "prettier": "^3.5.3",
     "react-router-devtools": "^1.1.0",
     "tailwindcss": "^4.0.0",
     "typescript": "^5.7.2",
