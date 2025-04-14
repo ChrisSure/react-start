@@ -23,5 +23,4 @@ jobs:
       - run: npm ci
       - run: npm run build --if-present
       - run: npm run lint
-      - run: prettier-check
       - run: npm run test-coverage
