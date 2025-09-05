@@ -5,7 +5,6 @@ export interface CustomListItem {
   title: string;
   description?: string;
   category?: string;
-  [key: string]: any;
 }
 
 export interface CustomListProps extends React.HTMLAttributes<HTMLDivElement> {

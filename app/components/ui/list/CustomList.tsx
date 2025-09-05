@@ -37,7 +37,7 @@ export function CustomList({
       {...props}
       className={clsx(variationClasses.container, className)}
     >
-      {items.map((item, index) => (
+      {items.map((item) => (
         <div
           key={item.id}
           className={variationClasses.item}
